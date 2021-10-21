@@ -1,0 +1,78 @@
+.conteiner {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main {
+  background-color: $brovn;
+  padding-top: 70px;
+  &__name {
+    color: $white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  // --------------Firs card
+  &__box1 {
+    background-image: url(../../../i/bgmain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__img1 {
+    padding-top: 65px;
+    width: 250px;
+    margin: auto;
+  }
+
+  &__pr1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: $orang;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__pr2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: $orang;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__form1 {
+    margin-top: 25px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  &__btn1 {
+    background: $orang;
+    box-shadow: 4px 4px 4px 4px #000000;
+    border-radius: 5px;
+    height: 44px;
+  }
+  &__btntext1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: $white;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+  //---    second card
+  &__box2 {
+    background-image: url(../../../i/slid_rom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__info1-height {
+    margin-top: 39px;
+  }
+  &__form1-pdbt {
+    padding-bottom: 100px;
+  }
+
+  //--------       therd card
+  &__box3 {
+    background-image: url(../../../i/bgwiskey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

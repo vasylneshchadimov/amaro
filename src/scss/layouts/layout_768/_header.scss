@@ -1,0 +1,107 @@
+.head {
+  background-image: url(../../../i/headbg-tablet.png);
+  background-size: cover;
+
+  padding-bottom: 220px;
+}
+
+.head__top {
+  background-color: rgba(0, 0, 0, 0.75);
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  grid-template-rows: 80px auto;
+}
+
+.head__logobox {
+  display: flex;
+  margin-left: 14px;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.head__text {
+  grid-column: 2;
+  margin-left: 12px;
+}
+.head__h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  margin-right: 31px;
+  margin-bottom: 2px;
+  color: $white;
+}
+.head__name {
+  font-size: 11px;
+  line-height: 13px;
+  color: $white;
+}
+.head__burger {
+  color: $white;
+  grid-column: 4;
+  margin-right: 25px;
+  justify-self: right;
+  align-self: center;
+}
+
+.head__contack {
+  display: block;
+  margin: 0;
+  padding: 0;
+  grid-column: 2;
+  color: $white;
+  grid-row: 1;
+  justify-self: right;
+  align-self: center;
+}
+.head__basket {
+  grid-column: 3;
+  grid-row: 1;
+  margin-right: 25px;
+  justify-self: right;
+  align-self: center;
+}
+
+//-------------head catalog
+.head__catalog {
+  background: rgba(39, 19, 19, 0.75);
+  margin-top: 113px;
+  color: $white;
+}
+.head__h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  padding-top: 75px;
+  margin-left: 80px;
+  margin-right: 45px;
+}
+.head__info {
+  font-size: 16px;
+  padding-top: 34px;
+  margin-left: 80px;
+  margin-right: 46px;
+  text-align: left;
+  line-height: 22px;
+}
+.head__form {
+  margin-top: 35px;
+  padding-bottom: 80px;
+  margin-left: 80px;
+  text-align: left;
+}
+.head__btn {
+  background: #dd7610;
+  box-shadow: 4px 4px 4px 4px #000000;
+  border-radius: 5px;
+  height: 44px;
+}
+.head__btntext {
+  font-weight: bold;
+  font-size: 15px;
+  color: $white;
+  padding-left: 38px;
+  padding-right: 38px;
+}

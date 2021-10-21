@@ -1,0 +1,62 @@
+.catalog {
+  background-color: $brovn;
+  &__over600 {
+    width: 990px;
+    margin: auto;
+  }
+  &__mane {
+    font-weight: bold;
+    font-size: 20px;
+    color: $white;
+  }
+  &__pr {
+    font-size: 13px;
+    color: $white;
+    margin-left: 20px;
+  }
+  &__cart {
+    margin-top: 50px;
+  }
+  &__card1 {
+    width: 290px;
+    background-color: $white;
+    margin-bottom: 20px;
+  }
+  &__imgbox {
+    padding-top: 20px;
+  }
+  &__img {
+    margin: auto;
+  }
+  &__textbox {
+    margin-left: 35px;
+    margin-right: 50px;
+  }
+  &__name {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  &__name:first-of-type {
+    margin-bottom: 0px;
+  }
+  &__name2 {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+  &__price {
+    font-weight: bold;
+    font-size: 15px;
+    color: $red;
+    margin-left: 10px;
+    padding-bottom: 25px;
+  }
+  &__down550 {
+    width: 990px;
+    margin: auto;
+  }
+}
+.orange {
+  color: orangered;
+}

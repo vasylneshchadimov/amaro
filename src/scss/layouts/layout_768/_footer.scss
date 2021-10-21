@@ -1,0 +1,61 @@
+.foot {
+  background-color: $black;
+  &__form {
+    padding-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  &__qestion {
+    color: $white;
+  }
+  &__mail {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $gray;
+    width: 300px;
+  }
+  &__area {
+    background-color: $gray;
+    width: 300px;
+    min-height: 100px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  &__btn {
+    background-color: $orang;
+    padding: 10px 20px;
+  }
+  &__btntext {
+    font-weight: bold;
+  }
+  &__logobox {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  &__h1 {
+    color: $white;
+    font-size: 14px;
+    padding-top: 15px;
+    margin-left: 15px;
+  }
+  &__name {
+    color: $white;
+    font-size: 10px;
+    margin-left: 15px;
+  }
+  &__social {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  &__inst {
+    color: $white;
+    margin-left: 10px;
+  }
+}
